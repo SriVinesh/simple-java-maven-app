@@ -21,11 +21,13 @@
             </plugin>
         </plugins>
     </build>
+         <repositories>
     <repository>
         <id>central</id>
         <name>arti.server.com-releases</name>
         <url>http://192.168.4.214:8081/artifactory/libs-release</url>
     </repository>
+                  </repositories>
   <dependencies>
         <dependency>
             <groupId>org.jfrog.artifactory.client</groupId>
